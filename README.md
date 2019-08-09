@@ -1,6 +1,6 @@
 # TwitterCloneBackend
 
-This is a backend application similiar to Twitter. In this `TwitterCloneBackend`, users can sign up, login, & post "screams" ( aka tweets). this app was deployed with Firebase
+This is a backend application similiar to Twitter. In this `TwitterCloneBackend`, users can sign up, login, & post "screams" (aka tweets). this app was deployed with Firebase
 & uses express.js as a framework. 
 
 Users must be logged in to call certain functions. Therefore, an authentication token is required for posting screams, deleting screams, liking screams, unliking screams, commenting 
@@ -13,6 +13,6 @@ exists in this file.
 
 `functions/util` contains all of the necessary functions for authorizing & validating user data.
 
-`functions/dbschame.js` shows the database schema for this app.
+`functions/dbschema.js` shows the database schema for this app.
 
 Although the back end is complete for this app, I am still working on the front end which will be developed using react.js.
